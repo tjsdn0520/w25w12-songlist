@@ -12,4 +12,4 @@ export const getSongList = async () => {
 export const getSongDetail = async (id) => {
   const res = await api.get(`/${id}`)
   return res.data
-}
+}   
